@@ -21,7 +21,7 @@ public class Favorite {
     }
 
     @Test
-    public void Test1_SendEmailWithSubject(){
+    public void AddItemToFavorites(){
 
         Main mainPage = new Main(driver);
         mainPage.openPage();
